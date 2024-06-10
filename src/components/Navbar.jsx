@@ -156,13 +156,13 @@ function Navbar() {
           </div>
           <ul className="flex-1 flex justify-center items-center xl:gap-12 gap-x-4 max-lg:hidden">
             <a
-              href="#"
+              href="/"
               className="leading-normal no-underline text-black font-bold text-lg hover:text-primary"
             >
               Find jobs
             </a>
             <a
-              href="#"
+              href="/people"
               className="leading-normal no-underline text-black font-bold text-lg hover:text-primary"
             >
               People
@@ -184,9 +184,9 @@ function Navbar() {
             <button className="rounded-full bg-[#f3f3f4] text-lg text-black border-none font-bold px-8 py-3 hoverBtn">
               Sign Up
             </button>
-            <button className="rounded-full bg-primary text-lg text-white border-none font-bold px-8 py-3 hoverBtn">
+            <a href="/login"><button  className="rounded-full bg-primary text-lg text-white border-none font-bold px-8 py-3 hoverBtn">
               Sign In
-            </button>
+            </button></a>
           </div>
           {dropdown ? (
             <div

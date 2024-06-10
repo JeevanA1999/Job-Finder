@@ -27,10 +27,10 @@ function Featured_jobs() {
         </div>
         <div className='flex items-center justify-between'>
           <span>
-            <p className='text-[#93979d] text-lg'>June 8, 2022 by</p>
+            <p className='text-[#93979d] text-lg'>April 8, 2024 by</p>
             <p className='text-xl font-medium'>{company}</p>
           </span>
-          <button className='rounde-[#10px] p-2 text-white border-none outline-none'
+          <button className='rounded-[10px] p-2 text-white border-none outline-none'
           style={{backgroundColor:`${bg2}`}}>{icon2}</button>
         </div>
       </div>
