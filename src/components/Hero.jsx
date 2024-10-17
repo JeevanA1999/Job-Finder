@@ -18,19 +18,20 @@ function Hero() {
         </p>
 
         <div className="flex items-center border-2 border-solid border-primary rounded-full h-16 lg:w-2/5 w-full py-2 relative mt-4">
-          <input
-            type="text"
-            placeholder="Job title or keyword"
-            className="bg-transparent h-full  w-full border-none outline-none absolute px-20 xl:text-2xl text-base"
-          />
-          <button className=" bg-primary rounded-full  text-white w-12 h-12  absolute left-2 border-none">
-            <HiSearch className="text-2xl  mx-auto" />
-          </button>
-          <button className="flex items-center bg-[#f3f3f4] absolute right-2 rounded-full 1g:px-4 px-2 h-[90%] xl:text-xl text-sm font-normal gap-x-2 border-none">
-            <IoLocationOutline className="text-black lg:text-2xl" />
-            Any location
-          </button>
-        </div>
+  <input
+    type="text"
+    placeholder="Job title or keyword"
+    className="bg-transparent h-full w-full border-none outline-none absolute px-20 xl:text-2xl text-base"
+  />
+  {/* <button className="bg-primary rounded-full text-white w-12 h-12 absolute left-2 flex items-center justify-center">
+    <HiSearch className="text-2xl" />
+  </button> */}
+  <button className="flex items-center bg-[#f3f3f4] absolute right-2 rounded-full lg:px-4 px-2 h-[90%] xl:text-xl text-sm font-normal gap-x-2 border-none">
+    <IoLocationOutline className="text-black lg:text-2xl" />
+    Any location
+  </button>
+</div>
+
       </div>
     </div>
   );

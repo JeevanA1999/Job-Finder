@@ -48,7 +48,7 @@ function Top_company() {
                 </div>
                 <div className='p-2 border-solid border-[#e2e4e7] rounded-md flex justify-between text-sm'>
                     <p>Salary</p>
-                    <p style={{color:`${color}`}}>Rs. 3,457.00</p>
+                    <p style={{color:`${color}`}}>Rs. 3,45,000</p>
                 </div>
                 </div>
             </div>

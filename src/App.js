@@ -1,4 +1,5 @@
 import "./App.css";
+import HiringPage from "./pages/HiringPage.js";
 import Home from "./pages/Home.jsx";
 import LoginPage from "./pages/LoginPage.jsx"
 import People from "./pages/People.jsx";
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/people" element={<People/>} />
       <Route path="/login" element={<LoginPage/>} />
+      <Route path="/hiringsites" element={<HiringPage/>} />
     </Routes>
     </BrowserRouter>
 
