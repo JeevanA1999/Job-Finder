@@ -58,7 +58,7 @@ function Login() {
               </div>
             </div>
             <button className="flex sm:text-sm text-xs justify-end mx-auto mt-2 text-stone-600 hover:text-stone-950">
-              {login ? " Forgot Password?" : ""}
+              {login ? " Forgot Password?" : "Already have an account?"}
             </button>
             <div className="flex flex-row mt-4 text-center justify-center">
               <button

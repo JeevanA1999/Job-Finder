@@ -148,7 +148,7 @@ function Navbar() {
           <div className="flex flex-col gap-y-4">
             <div className="flex items-center gap-x-2">
               <Link to={"/"} className="flex items-center lg:text-5xl text-3xl">
-                <button className="rounded-full py-1 text-white bg-primary lg:text-5xl text-3xl outline-none border-none">
+                <button className="rounded-full h-12 w-12 flex items-center justify-center text-white bg-primary lg:text-4xl text-2xl outline-none border-none">
                   Jo
                 </button>
                 <p className="font-semibold leading-tight">bline</p>
@@ -182,12 +182,17 @@ function Navbar() {
             </a> */}
           </ul>
           <div className="flex max-lg:hidden gap-x-4">
-            <a href="/login" className="rounded-full bg-[#f3f3f4] text-lg text-black border-none font-bold px-8 py-3 hoverBtn">
+            <a
+              href="/login"
+              className="rounded-full bg-[#f3f3f4] text-lg text-black border-none font-bold px-8 py-3 hoverBtn"
+            >
               Sign Up
             </a>
-            <a href="/login"><button  className="rounded-full bg-primary text-lg text-white border-none font-bold px-8 py-3 hoverBtn">
-              Sign In
-            </button></a>
+            <a href="/login">
+              <button className="rounded-full bg-primary text-lg text-white border-none font-bold px-8 py-3 hoverBtn">
+                Sign In
+              </button>
+            </a>
           </div>
           {dropdown ? (
             <div
@@ -213,29 +218,29 @@ function Navbar() {
             <div className="w-full h-[320px] flex flex-col items-baseline pt-8 gap-4">
               <ul className="text-center p-0 flex flex-col justify-center w-full gap-y-8">
                 <a
-                  href="#"
+                  href="/"
                   className="leading-normal no-underline text-white font-bold text-lg hover:text-primary"
                 >
                   Find jobs
                 </a>
                 <a
-                  href="#"
+                  href="/people"
                   className="leading-normal no-underline text-white font-bold text-lg hover:text-primary"
                 >
                   People
                 </a>
                 <a
-                  href="#"
+                  href="/hiringsites"
                   className="leading-normal no-underline text-white font-bold text-lg hover:text-primary"
                 >
                   Hiring site
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="leading-normal no-underline text-white font-bold text-lg hover:text-primary"
                 >
                   Resume
-                </a>
+                </a> */}
               </ul>
               <div className="flex flex-col justify-center items-center w-full gap-y-8 mt-4">
                 <button className="rounded-full bg-[#f3f3f4] text-lg text-black border-none font-bold px-8 py-3 hoverBtn">

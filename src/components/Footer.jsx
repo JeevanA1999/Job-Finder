@@ -20,12 +20,13 @@ function Footer() {
           </div>
           <section className='flex flex-wrap pt-16 justify-between gap-8'>
             <div className='flex flex-col justify-between'>
-              <span className='flex items-center lg:text-5xl text-3xl'>
-                <button className='rounded-full py-1 text-white bg-primary lg:text-5xl text-3xl outline-none border-none'>
+            <Link to={"/"} className="flex items-center lg:text-5xl text-3xl">
+                <button className="rounded-full h-12 w-12 flex items-center justify-center text-white bg-primary lg:text-4xl text-2xl outline-none border-none">
                   Jo
                 </button>
-                <p className='font-semibold leading-tight text-white'>bline</p>
-              </span>
+                <p className="font-semibold leading-tight">bline</p>
+              </Link>
+           
               <p className='text-white text-lg'>Call us</p>
               <p className='text-primary text-lg'>{123} 456-7890</p>
               <p className='text-white text-lg'>
